@@ -1,4 +1,7 @@
 <aura:application >
+    <!-- Aura Attributes -->
+    <aura:attribute name="name" type="String"/>
+    <aura:attribute name="races" type="String[]" default="['Race 1', 'Race 2', 'Race 3']"/>
     <div>
         <h1>Enter new race</h1>
         <ui:inputText label="name" aura:id="name" value="{!v.name}"/>
