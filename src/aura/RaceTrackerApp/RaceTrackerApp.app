@@ -2,6 +2,10 @@
     <!-- Aura Attributes -->
     <aura:attribute name="name" type="String"/>
     <aura:attribute name="races" type="String[]" default="['Race 1', 'Race 2', 'Race 3']"/>
+
+    <!-- Aura Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
     <div>
         <h1>Enter new race</h1>
         <ui:inputText label="name" aura:id="name" value="{!v.name}"/>
