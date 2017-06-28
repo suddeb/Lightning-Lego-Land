@@ -1,4 +1,4 @@
-<aura:component implements="force:appHostable, flexipage:availableforAllPageTypes">
+<aura:component implements="force:appHostable,flexipage:availableforAllPageTypes">
     <aura:attribute name="title" type="String" access="global" default="Race Tracker" />
 
     <div class="slds">
