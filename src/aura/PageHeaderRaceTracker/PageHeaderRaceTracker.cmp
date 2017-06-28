@@ -1,0 +1,7 @@
+<aura:component implements="force:appHostable, flexipage:availableforAllPageTypes">
+    <div class="slds">
+        <div class="slds-page-header" >
+            <p class="slds-page-header__title" title="Race Tracker">Race Tracker</p>
+        </div>
+    </div>
+</aura:component>

@@ -1,4 +1,4 @@
-<aura:component implements="force:appHostable, flexipage:availableforAllPageTypes">
+<aura:component implements="force:appHostable, flexipage:availableforAllPageTypes" >
     <aura:attribute name="name" type="String"/>
     <!-- Aura Handlers -->
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
