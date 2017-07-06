@@ -8,7 +8,7 @@
                 <h1 class="slds-text-heading__label">Enter New Race</h1>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <ui:inputText   label="name" 
+                        <ui:inputText label="name" 
                                         aura:id="name" 
                                         class="slds-input"
                                         labelClass="slds-form-element__label"
@@ -17,7 +17,7 @@
                 </div>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <ui:inputSelect     label="Race Type" 
+                        <ui:inputSelect label="Race Type" 
                                             aura:id="Type" 
                                             class="slds-select"
                                             labelClass="slds-form-element__label"
@@ -26,7 +26,7 @@
                 </div>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <ui:inputDateTime   label="Date/Time" 
+                        <ui:inputDateTime label="Date/Time" 
                                             aura:id="DateTime" 
                                             class="slds-input"
                                             labelClass="slds-form-element__label"
@@ -35,7 +35,7 @@
                 </div>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <ui:inputText       label="Location" 
+                        <ui:inputText label="Location" 
                                             aura:id="Location" 
                                             class="slds-input"
                                             labelClass="slds-form-element__label"/>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <ui:inputCheckBox   label="Attended?" 
+                        <ui:inputCheckBox label="Attended?" 
                                             aura:id="Attended" 
                                             class="slds-checkbox"
                                             labelClass="slds-form-element__label"/>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="slds-form-element">
                     <div class="slds-form-element__control">
-                        <ui:inputText       label="Results" 
+                        <ui:inputText label="Results" 
                                             aura:id="Results" 
                                             class="slds-input"
                                             labelClass="slds-form-element__label"/>
