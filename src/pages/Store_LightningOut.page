@@ -44,7 +44,7 @@
     <script>
     
     // Initialize Lighting Out
-    $Lightning.use("ftplatform:StoreDependencies", onLightningOutLoad);
+    $Lightning.use("c:StoreDependencies", onLightningOutLoad);
     
     function onLightningOutLoad() {    
         var products = document.getElementsByClassName("item-lightning-out");
@@ -57,7 +57,7 @@
             
             // Supercharge markup to use Lightning component
             $Lightning.createComponent(
-                "ftplatform:StoreItem",
+                "c:StoreItem",
                 {"recordId": productId},
                 productDOM,
                 emptyCallback
@@ -65,7 +65,7 @@
         }
         
         $A.eventService.addHandler({
-            "event": "ftplatform:addToCart",
+            "event": "c:addToCart",
             "handler": onAddToCartClicked
         });
     }
