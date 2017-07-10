@@ -21,8 +21,8 @@
             </header>
         </div>
         <div class="slds-card__body slds-text-align--center">
-            <div>{!v.product.ftplatform__Description__c}</div>
-            <div>${!v.product.ftplatform__Price__c}</div>
+            <div>{!v.product.Description__c}</div>
+            <div>${!v.product.Price__c}</div>
         </div>
         <div class="slds-card__footer">
             <ui:button class="slds-button slds-button--neutral slds-not-selected" press="{!c.onAddToCardClick}">
