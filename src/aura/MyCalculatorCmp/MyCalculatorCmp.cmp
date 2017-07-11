@@ -14,16 +14,22 @@
 	</div>
 	<div class="slds-form-element slds-grid slds-grid_align-space">
   		<div class="slds-col slds-form-element__control">
-    		<lightning:button class="slds-button slds-button_success" label="Add" onclick="{!c.doSomething}"/>
+    		<lightning:button class="slds-button slds-button_success" label="Add" onclick="{!c.doAdd}"/>
   		</div>
   		<div class="slds-col slds-form-element__control">
-    		<lightning:button class="slds-button slds-button_success" label="Substract" onclick="{!c.doSomething}"/>
+    		<lightning:button class="slds-button slds-button_success" label="Substract" onclick="{!c.doSubstract}"/>
   		</div>
   		<div class="slds-col slds-form-element__control">
-    		<lightning:button class="slds-button slds-button_success" label="Multiply" onclick="{!c.doSomething}"/>
+    		<lightning:button class="slds-button slds-button_success" label="Multiply" onclick="{!c.doMultiply}"/>
   		</div>
   		<div class="slds-col slds-form-element__control">
-    		<lightning:button class="slds-button slds-button_success" label="Divide" onclick="{!c.doSomething}"/>
+    		<lightning:button class="slds-button slds-button_success" label="Divide" onclick="{!c.doDivide}"/>
+  		</div>
+	</div>
+	
+	<div class="slds-form-element slds-grid slds-grid_align-space">
+  		<div class="slds-col slds-form-element__control">
+    		Result: <ui:outputNumber value="{!v.result}"/>
   		</div>
 	</div>
 </aura:component>
