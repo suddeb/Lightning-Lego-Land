@@ -1,0 +1,29 @@
+<aura:component implements="force:appHostable,flexipage:availableforAllPageTypes">
+	<!-- Aura Attributes -->
+	<aura:attribute name="firstNumber" type="double" default="54"/>
+	<aura:attribute name="secondNumber" type="double" default="54"/>
+	<aura:attribute name="result" type="double" />
+	
+	<div class="slds-form-element slds-grid slds-grid_align-space">
+  		<div class="slds-col slds-form-element__control">
+    		<lightning:input type="number" name="firstNumber" label="Enter first number:" value="{!v.firstNumber}" />
+  		</div>
+  		<div class="slds-col slds-form-element__control">
+    		<lightning:input type="number" name="secondNumber" label="Enter second number:" value="{!v.secondNumber}" />
+  		</div>
+	</div>
+	<div class="slds-form-element slds-grid slds-grid_align-space">
+  		<div class="slds-col slds-form-element__control">
+    		<lightning:button class="slds-button slds-button_success" label="Add" onclick="{!c.doSomething}"/>
+  		</div>
+  		<div class="slds-col slds-form-element__control">
+    		<lightning:button class="slds-button slds-button_success" label="Substract" onclick="{!c.doSomething}"/>
+  		</div>
+  		<div class="slds-col slds-form-element__control">
+    		<lightning:button class="slds-button slds-button_success" label="Multiply" onclick="{!c.doSomething}"/>
+  		</div>
+  		<div class="slds-col slds-form-element__control">
+    		<lightning:button class="slds-button slds-button_success" label="Divide" onclick="{!c.doSomething}"/>
+  		</div>
+	</div>
+</aura:component>
